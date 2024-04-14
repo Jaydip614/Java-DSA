@@ -1,3 +1,4 @@
+package LinkedList;
 
 public class Node {
 
@@ -20,7 +21,7 @@ class LinkedListExaple {
         System.out.println("Address of newNode : " + newNode);
 
         Node head = newNode;
-        
+
         System.out.println("Address of head : " + head);
         System.out.println("data : " + head.data);
         System.out.println("next : " + head.next);
